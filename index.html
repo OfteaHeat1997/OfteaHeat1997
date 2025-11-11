@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paula - Frontend Developer & AI Enthusiast</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Animated Background Particles */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .particle {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            animation: float 15s infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* 3D Animated Name */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            perspective: 1000px;
+        }
+
+        .name-container {
+            perspective: 1000px;
+            margin-bottom: 30px;
+        }
+
+        .name-3d {
+            font-size: 120px;
+            font-weight: bold;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #f7dc6f, #ff6b6b);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient 5s ease infinite, rotate3d 10s ease-in-out infinite;
+            text-shadow:
+                0 1px 0 #ccc,
+                0 2px 0 #c9c9c9,
+                0 3px 0 #bbb,
+                0 4px 0 #b9b9b9,
+                0 5px 0 #aaa,
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25);
+            transform-style: preserve-3d;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes rotate3d {
+            0%, 100% {
+                transform: rotateX(0deg) rotateY(0deg);
+            }
+            25% {
+                transform: rotateX(10deg) rotateY(10deg);
+            }
+            50% {
+                transform: rotateX(-10deg) rotateY(-10deg);
+            }
+            75% {
+                transform: rotateX(10deg) rotateY(-10deg);
+            }
+        }
+
+        .subtitle {
+            font-size: 32px;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease;
+            background: linear-gradient(90deg, #fff, #f0f0f0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline {
+            font-size: 20px;
+            opacity: 0.9;
+            animation: fadeInUp 1.5s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Scroll Down Indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateX(-50%) translateY(0);
+            }
+            40% {
+                transform: translateX(-50%) translateY(-20px);
+            }
+            60% {
+                transform: translateX(-50%) translateY(-10px);
+            }
+        }
+
+        .scroll-indicator svg {
+            width: 30px;
+            height: 30px;
+            fill: white;
+        }
+
+        /* Section Styling */
+        .section {
+            min-height: 100vh;
+            padding: 80px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .section-dark {
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        .section-title {
+            font-size: 48px;
+            margin-bottom: 50px;
+            text-align: center;
+            position: relative;
+            padding-bottom: 20px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+            border-radius: 2px;
+        }
+
+        /* About Section */
+        .about-content {
+            max-width: 800px;
+            text-align: center;
+            font-size: 20px;
+            line-height: 1.8;
+            animation: fadeIn 1s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .skill-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            animation: slideIn 0.5s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-10px) scale(1.05);
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .skill-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .skill-title {
+            font-size: 24px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .skill-list {
+            list-style: none;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            max-width: 1400px;
+            width: 100%;
+        }
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .project-card:hover::before {
+            left: 100%;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .project-icon {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .project-title {
+            font-size: 26px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .project-description {
+            font-size: 16px;
+            line-height: 1.6;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .tag {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .project-link:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Contact Section */
+        .contact-content {
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .contact-text {
+            font-size: 22px;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 20px 50px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .name-3d {
+                font-size: 60px;
+            }
+
+            .subtitle {
+                font-size: 24px;
+            }
+
+            .tagline {
+                font-size: 16px;
+            }
+
+            .section-title {
+                font-size: 36px;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="name-container">
+            <h1 class="name-3d">PAULA</h1>
+        </div>
+        <h2 class="subtitle">Frontend Developer & AI Enthusiast</h2>
+        <p class="tagline">Creating Beautiful Experiences with Code 🚀</p>
+
+        <div class="scroll-indicator">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section section-dark">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>
+                Hi! I'm <strong>Paula</strong>, a passionate <strong>Frontend Developer</strong> with big dreams of becoming a <strong>Full-Stack Engineer</strong>.
+                I specialize in creating intuitive user interfaces and love combining my frontend expertise with <strong>AI/ML</strong> and <strong>mobile development</strong>.
+            </p>
+            <br>
+            <p>
+                I'm currently seeking <strong>internship opportunities</strong> where I can contribute my skills, learn from experienced professionals,
+                and grow as a developer. I believe in writing clean code, designing beautiful UIs, and building applications that make a difference!
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3 class="skill-title">Frontend Development</h3>
+                <ul class="skill-list">
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React & Modern Frameworks</li>
+                    <li>Responsive Design</li>
+                    <li>UI/UX Principles</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">📱</div>
+                <h3 class="skill-title">Mobile Development</h3>
+                <ul class="skill-list">
+                    <li>Flutter & Dart</li>
+                    <li>Android Development</li>
+                    <li>Cross-Platform Apps</li>
+                    <li>Mobile UI Design</li>
+                    <li>App Deployment</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🤖</div>
+                <h3 class="skill-title">AI & Machine Learning</h3>
+                <ul class="skill-list">
+                    <li>Python</li>
+                    <li>TensorFlow & PyTorch</li>
+                    <li>Computer Vision</li>
+                    <li>Image Classification</li>
+                    <li>Model Deployment</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🔧</div>
+                <h3 class="skill-title">Tools & Backend</h3>
+                <ul class="skill-list">
+                    <li>Git & GitHub</li>
+                    <li>Node.js Basics</li>
+                    <li>REST APIs</li>
+                    <li>Docker</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-dark">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-icon">🍎</div>
+                <h3 class="project-title">Fruit Classifier AI</h3>
+                <p class="project-description">
+                    An intelligent fruit classification system using deep learning. The model can identify different types of fruits
+                    with high accuracy, making it perfect for smart agriculture and retail applications.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">TensorFlow</span>
+                    <span class="tag">Deep Learning</span>
+                    <span class="tag">Computer Vision</span>
+                </div>
+                <a href="https://github.com/OfteaHeat1997/fruit-classifier-AI-project" class="project-link" target="_blank">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🍓</div>
+                <h3 class="project-title">Fruit Ripeness Detection</h3>
+                <p class="project-description">
+                    A computer vision system that assesses fruit ripeness using color and texture analysis.
+                    This tool helps in quality control and reducing food waste in the supply chain.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">OpenCV</span>
+                    <span class="tag">Machine Learning</span>
+                    <span class="tag">Image Processing</span>
+                </div>
+                <a href="https://github.com/OfteaHeat1997/fruit_ripeness" class="project-link" target="_blank">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">👕</div>
+                <h3 class="project-title">Clothing Classification</h3>
+                <p class="project-description">
+                    A fashion item categorization system that uses neural networks to classify different types of clothing.
+                    Perfect for e-commerce platforms and fashion tech applications.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Neural Networks</span>
+                    <span class="tag">Fashion AI</span>
+                    <span class="tag">Classification</span>
+                </div>
+                <a href="https://github.com/OfteaHeat1997/classification_image--clothing" class="project-link" target="_blank">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🌟</div>
+                <h3 class="project-title">More Coming Soon!</h3>
+                <p class="project-description">
+                    I'm constantly working on new projects! Stay tuned for exciting web applications, mobile apps built with Flutter,
+                    and innovative AI integrations that solve real-world problems.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Flutter</span>
+                    <span class="tag">Full-Stack</span>
+                    <span class="tag">Innovation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <h2 class="section-title">Let's Connect!</h2>
+        <div class="contact-content">
+            <p class="contact-text">
+                I'm actively seeking <strong>internship opportunities</strong> in frontend development, web development, or mobile app development.
+                If you're looking for a passionate, dedicated developer who loves to learn and create, let's talk!
+            </p>
+
+            <a href="mailto:OfteaHeat1997@users.noreply.github.com" class="cta-button">📧 Get In Touch</a>
+
+            <div class="social-links">
+                <a href="https://github.com/OfteaHeat1997" class="social-link" target="_blank">
+                    <span>🐙</span> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/yourprofile" class="social-link" target="_blank">
+                    <span>💼</span> LinkedIn
+                </a>
+                <a href="https://ofteaheat1997.github.io" class="social-link" target="_blank">
+                    <span>🌐</span> Portfolio
+                </a>
+            </div>
+
+            <p style="margin-top: 60px; opacity: 0.8;">
+                ✨ <strong>Open to:</strong> Internships • Collaborations • Open Source • Learning Opportunities
+            </p>
+        </div>
+    </section>
+
+    <script>
+        // Create animated particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 50;
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+
+                const size = Math.random() * 5 + 2;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.left = `${Math.random() * 100}%`;
+                particle.style.animationDelay = `${Math.random() * 15}s`;
+                particle.style.animationDuration = `${Math.random() * 10 + 10}s`;
+
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Smooth scrolling for links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Initialize
+        createParticles();
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.skill-card, .project-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
