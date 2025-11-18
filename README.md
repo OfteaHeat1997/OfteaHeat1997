@@ -197,7 +197,7 @@ I'm actively looking for <strong>frontend development internship opportunities</
   <a href="https://github.com/OfteaHeat1997">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=667eea&color=764ba2" />
   </a>
-  <a href="https://www.linkedin.com/in/yourprofile">
+  <a href="https://www.linkedin.com/in/maria-paula-salazar-agudelo-400969359/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=667eea&color=764ba2" />
   </a>
   <a href="mailto:OfteaHeat1997@users.noreply.github.com">
