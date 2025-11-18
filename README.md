@@ -126,7 +126,7 @@ I'm <strong>Paula</strong>, a passionate <strong>Frontend Developer</strong> ded
 - 🎯 Routing & Navigation
 - 📱 Responsive interface
 
-[View Live Demo →](https://ofteaheat1997.github.io/CRUD-Book-managements/) | [View Code →](https://github.com/OfteaHeat1997/CRUD-Book-managements)
+[View Project →](https://github.com/OfteaHeat1997/CRUD-Book-managements)
 
 </td>
 <td width="50%" valign="top">
@@ -140,7 +140,7 @@ I'm <strong>Paula</strong>, a passionate <strong>Frontend Developer</strong> ded
 - 📊 Score tracking system
 - 🎨 Interactive UI/UX
 
-[View Live Demo →](https://ofteaheat1997.github.io/API-Quiz-Game/) | [View Code →](https://github.com/OfteaHeat1997/API-Quiz-Game)
+[View Project →](https://github.com/OfteaHeat1997/API-Quiz-Game)
 
 </td>
 </tr>
