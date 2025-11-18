@@ -172,9 +172,11 @@ const currentGoals = {
 <!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<!-- Animated Coding GIF -->
+<!-- Project Showcase - Kirby Demo -->
 <p align="center">
-  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="500">
+  <a href="https://ofteaheat1997.github.io/Kirby/bodykirby.html">
+    <img src="https://media.giphy.com/media/bGgsc5mWoryfgKBx1u/giphy.gif" width="500" alt="Woman coding">
+  </a>
 </p>
 
 <!-- Animated Divider -->
