@@ -131,13 +131,16 @@ I'm <strong>Paula</strong>, a passionate <strong>Frontend Developer</strong> ded
 </td>
 <td width="50%" valign="top">
 
-#### 🚀 More Projects Coming Soon
-**Currently working on:**
+#### 🎮 API Quiz Game
+**Interactive Quiz Application**
 
-- 🍕 Pizza ordering website
-- 🎮 Pixel art game projects
-- 🎬 Studio website designs
-- 💼 Professional portfolios
+- 🌐 Fetch API integration
+- 🎯 Dynamic question generation
+- ⏱️ Timer functionality
+- 📊 Score tracking system
+- 🎨 Interactive UI/UX
+
+[View Project →](https://github.com/OfteaHeat1997/API-Quiz-Game)
 
 </td>
 </tr>
