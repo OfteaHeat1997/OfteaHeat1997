@@ -3,9 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=24&height=200&section=header&text=Paula&fontSize=80&fontColor=fff&animation=scaleIn&stroke=E91E8C&strokeWidth=2"/>
 </p>
 
-<h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2000&pause=500&color=E91E8C&center=true&vCenter=true&width=600&lines=Frontend+Developer+💜;UX/UI+Designer+🎨;Looking+for+Internship+Feb+2026+🚀;ICT+%26+Media+Design+%40+Fontys+✨" alt="Typing SVG" />
-</h3>
+
 
 <p align="center">
   <a href="https://mpaula.nl"><img src="https://img.shields.io/badge/Portfolio-mpaula.nl-E91E8C?style=flat-square&logo=vercel&logoColor=white"/></a>
