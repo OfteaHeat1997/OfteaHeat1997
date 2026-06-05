@@ -1,101 +1,198 @@
-<!-- Animated Header SVG -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=24&height=200&section=header&text=Paula&fontSize=80&fontColor=fff&animation=scaleIn&stroke=E91E8C&strokeWidth=2"/>
-</p>
-
-
+<!-- ╔════════════════════════════════════════════════════════════╗ -->
+<!-- ║                    HERO  ·  ANIMATED HEADER                ║ -->
+<!-- ╚════════════════════════════════════════════════════════════╝ -->
 
 <p align="center">
-  <a href="https://mpaula.nl"><img src="https://img.shields.io/badge/Portfolio-mpaula.nl-E91E8C?style=flat-square&logo=vercel&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/maria-paula-salazar-agudelo-400969359"><img src="https://img.shields.io/badge/LinkedIn-Connect-7C3AED?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:salazarpaula14@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-E91E8C?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=OfteaHeat1997&color=E91E8C&style=flat-square&label=Views"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,30&height=240&section=header&text=Maria%20Paula%20Salazar&fontSize=58&fontColor=fff&animation=fadeIn&stroke=E91E8C&strokeWidth=2&fontAlignY=38&desc=Frontend%20Developer%20%C2%B7%20UX/UI%20Designer&descAlignY=58&descSize=18"/>
 </p>
 
----
+<h3 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2200&pause=600&color=E91E8C&center=true&vCenter=true&multiline=false&width=720&lines=Frontend+Developer+%F0%9F%92%9C;UX%2FUI+Designer+%F0%9F%8E%A8;Next.js+%2B+React+%2B+TypeScript+%E2%9A%A1;AI-Powered+Apps+%F0%9F%A4%96;Looking+for+Internship+%E2%80%94+September+1%2C+2026+%F0%9F%9A%80;ICT+%26+Media+Design+%40+Fontys+%E2%9C%A8" alt="Typing SVG" />
+</h3>
+
+<p align="center">
+  <a href="https://mpaula.nl"><img src="https://img.shields.io/badge/Portfolio-mpaula.nl-E91E8C?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+  <a href="https://unistudio.vercel.app"><img src="https://img.shields.io/badge/Live_Project-UniStudio-7C3AED?style=for-the-badge&logo=next.js&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/maria-paula-salazar-agudelo-400969359"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:salazarpaula14@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-E91E8C?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=OfteaHeat1997&color=E91E8C&style=for-the-badge&label=PROFILE+VIEWS"/>
+  <img src="https://img.shields.io/github/followers/OfteaHeat1997?style=for-the-badge&color=7C3AED&labelColor=0f0f18"/>
+  <img src="https://img.shields.io/badge/Available_Sept_2026-Open_to_Hire-22c55e?style=for-the-badge"/>
+</p>
+
+<br/>
+
+<!-- ╔════════════════════════════════════════════════════════════╗ -->
+<!-- ║                         ABOUT ME                           ║ -->
+<!-- ╚════════════════════════════════════════════════════════════╝ -->
 
 ### 🌟 ᴀʙᴏᴜᴛ ᴍᴇ
 
-```javascript
+```typescript
 const paula = {
-    location: "Eindhoven, Netherlands 🇳🇱",
-    from: "Colombia 🇨🇴 → Curaçao 🇨🇼 → Netherlands",
-    education: "ICT & Media Design @ Fontys (5th Semester)",
-    minor: "AI for Society",
-    lookingFor: "Internship starting February 2026",
-    languages: ["Spanish (Native)", "English", "Dutch (Learning)", "Papiamentu"]
+  name: "Maria Paula Salazar Agudelo",
+  role: "Frontend Developer & UX/UI Designer",
+  location: "Eindhoven, Netherlands 🇳🇱",
+  origin: "Colombia 🇨🇴 → Curaçao 🇨🇼 → Netherlands 🇳🇱",
+  education: "ICT & Media Design @ Fontys University (Semester 5)",
+  minor: "AI for Society",
+  currentFocus: ["Next.js 16", "React 19", "TypeScript", "AI-powered UX"],
+  lookingFor: "Internship starting September 1, 2026",
+  languages: ["Spanish (Native)", "English", "Dutch (B1)", "Papiamentu"],
+  funFact: "I ship apps that mix AI + thoughtful design ✨"
 };
 ```
 
----
+<br/>
+
+<!-- ╔════════════════════════════════════════════════════════════╗ -->
+<!-- ║                       TECH STACK                           ║ -->
+<!-- ╚════════════════════════════════════════════════════════════╝ -->
 
 ### 🛠️ ᴛᴇᴄʜ sᴛᴀᴄᴋ
 
-**Frontend**
+<details open>
+<summary><b>💻 Frontend & Frameworks</b></summary>
+<br/>
 
-![HTML5](https://img.shields.io/badge/HTML5-E91E8C?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-7C3AED?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-E91E8C?style=flat-square&logo=javascript&logoColor=white)
-![React](https://img.shields.io/badge/React-7C3AED?style=flat-square&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-E91E8C?style=flat-square&logo=next.js&logoColor=white)
-![PWA](https://img.shields.io/badge/PWA-7C3AED?style=flat-square&logo=pwa&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-E91E8C?style=flat-square&logo=wordpress&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-2D3748?style=for-the-badge&logo=react&logoColor=white)
 
-**Mobile**
+</details>
 
-![Flutter](https://img.shields.io/badge/Flutter-7C3AED?style=flat-square&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-E91E8C?style=flat-square&logo=dart&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7C3AED?style=flat-square&logo=kotlin&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-E91E8C?style=flat-square&logo=firebase&logoColor=white)
+<details open>
+<summary><b>🤖 AI / ML Integration</b></summary>
+<br/>
 
-**Backend**
+![Fal.ai](https://img.shields.io/badge/Fal.ai-FF4F00?style=for-the-badge&logoColor=white)
+![Replicate](https://img.shields.io/badge/Replicate-000000?style=for-the-badge&logo=replicate&logoColor=white)
+![Anthropic Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![IMG.LY](https://img.shields.io/badge/Background_Removal-E91E8C?style=for-the-badge&logoColor=white)
 
-![Node.js](https://img.shields.io/badge/Node.js-7C3AED?style=flat-square&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-E91E8C?style=flat-square&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-7C3AED?style=flat-square&logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-E91E8C?style=flat-square&logo=mysql&logoColor=white)
+</details>
 
-**Design & Tools**
+<details open>
+<summary><b>📱 Mobile</b></summary>
+<br/>
 
-![Figma](https://img.shields.io/badge/Figma-7C3AED?style=flat-square&logo=figma&logoColor=white)
-![Photoshop](https://img.shields.io/badge/Photoshop-E91E8C?style=flat-square&logo=adobephotoshop&logoColor=white)
-![Illustrator](https://img.shields.io/badge/Illustrator-7C3AED?style=flat-square&logo=adobeillustrator&logoColor=white)
-![Git](https://img.shields.io/badge/Git-E91E8C?style=flat-square&logo=git&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-7C3AED?style=flat-square&logo=jira&logoColor=white)
-![Trello](https://img.shields.io/badge/Trello-E91E8C?style=flat-square&logo=trello&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
----
+</details>
+
+<details open>
+<summary><b>⚙️ Backend & Database</b></summary>
+<br/>
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Redis](https://img.shields.io/badge/Upstash_Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>🎨 Design Tools</b></summary>
+<br/>
+
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
+![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>🧪 Testing & DevOps</b></summary>
+<br/>
+
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+
+</details>
+
+<br/>
+
+<!-- ╔════════════════════════════════════════════════════════════╗ -->
+<!-- ║                  FEATURED PROJECTS                         ║ -->
+<!-- ╚════════════════════════════════════════════════════════════╝ -->
 
 ### 🚀 ғᴇᴀᴛᴜʀᴇᴅ ᴘʀᴏᴊᴇᴄᴛs
 
+<!-- ─── UniStudio (HEADLINE PROJECT) ─── -->
+<table align="center" width="100%">
+<tr>
+<td width="100%" valign="top">
+
+#### ✨ UniStudio — AI Image Design Studio &nbsp;<img src="https://img.shields.io/badge/LIVE-22c55e?style=flat-square&logo=vercel&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Flagship_Project-E91E8C?style=flat-square"/>
+
+**Full-stack AI-powered image editing platform — Next.js 16 + React 19 + TypeScript**
+
+- 🤖 **AI features:** background removal (IMG.LY), generative editing (Fal.ai + Replicate), text-to-speech (Edge TTS)
+- 🎨 **Canvas editor** built with Fabric.js — layers, filters, slider controls, real-time preview
+- 🗄️ **Prisma + PostgreSQL** schema with Vercel Blob storage and Upstash Redis caching
+- 🧪 **Tested:** Jest unit tests, Playwright E2E suite, integration tests, CI smoke tests
+- 🎛️ **UI:** Radix UI primitives + Tailwind CSS 4 + Zustand state management
+- 🚀 **Deployed:** [unistudio.vercel.app](https://unistudio.vercel.app)
+
+`Next.js 16` `React 19` `TypeScript` `Prisma` `PostgreSQL` `Fal.ai` `Replicate` `Tailwind` `Playwright`
+
+</td>
+</tr>
+</table>
+
+<!-- ─── Secondary projects (2x2 grid) ─── -->
 <table align="center">
 <tr>
 <td width="50%" valign="top">
 
-#### 🎨 Kirby Interactive Dance Show
-**Interactive CSS Animation Project**
+#### 🏥 HealthWave — Doctor on Demand
+**Telemedicine app for underserved communities**
 
-- 🎭 Pure CSS3 keyframe animations
-- 🎮 Vanilla JavaScript DOM manipulation
-- 🎵 Music synchronization
-- 📱 Responsive design
-- ✨ Dynamic movement system
+- 📱 Android (Java/XML) healthcare app
+- 🤖 AI-powered symptom triage
+- 📅 Appointment booking + calendar sync
+- 🎨 Figma prototypes, full UX research
+- 🌍 Designed for developing-country contexts
 
-[View Code →](https://github.com/OfteaHeat1997/Kirby)
+[View Project →](https://github.com/OfteaHeat1997/Healthwave-doctor-on-demands)
 
 </td>
 <td width="50%" valign="top">
 
-#### 👻 American Horror Story - Intro/Outro
-**Horror Animation Sequence Recreation**
+#### 💬 Shift — Social Matching App
+**Cross-platform Flutter app w/ live location**
 
-- 🎬 70+ horror scenes with image transitions
-- ✨ CSS glitch effects & animations
-- 🎵 Background music integration
-- 📚 Comprehensive documentation
-- 🎯 Vanilla HTML/CSS/JavaScript
+- 🐦 Flutter (Dart 3.1+) for iOS & Android
+- 🔐 Firebase Auth + Google Sign-In
+- 🗺️ Google Maps + geolocation matching
+- 🎙️ Voice messages + emoji picker
+- ☁️ Cloud Firestore real-time sync
 
-[View Code →](https://github.com/OfteaHeat1997/American-horror-story-Intro-outro-)
+[View Project →](https://github.com/OfteaHeat1997/jussuf)
 
 </td>
 </tr>
@@ -103,58 +200,98 @@ const paula = {
 <td width="50%" valign="top">
 
 #### 📚 CRUD Book Management
-**React + Firebase CRUD Application**
+**React + Firebase full-stack CRUD**
 
-- ⚛️ React.js frontend
+- ⚛️ React frontend with React Router
 - 🔥 Firebase Realtime Database
-- ✏️ Create, Read, Update, Delete operations
-- 🎯 Routing & Navigation
-- 📱 Responsive interface
+- ✏️ Create / Read / Update / Delete flow
+- 🎯 Form validation + protected routes
+- 📱 Fully responsive UI
 
-[View Code →](https://github.com/OfteaHeat1997/CRUD-Book-managements)
+[View Project →](https://github.com/OfteaHeat1997/CRUD-Book-managements)
 
 </td>
 <td width="50%" valign="top">
 
 #### 🎮 API Quiz Game
-**Interactive Quiz Application**
+**Vanilla JS quiz w/ external API**
 
-- 🌐 Fetch API integration
-- 🎯 Dynamic question generation
-- ⏱️ Timer functionality
-- 📊 Score tracking system
-- 🎨 Interactive UI/UX
+- 🌐 Fetch API + async/await
+- 🎯 Dynamic question rendering
+- ⏱️ Timer + score tracking
+- 📊 Multiple difficulty levels
+- 🎨 Interactive UI animations
 
-[View Code →](https://github.com/OfteaHeat1997/API-Quiz-Game)
+[View Project →](https://github.com/OfteaHeat1997/API-Quiz-Game)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 👻 American Horror Story Intro
+**Recreation of AHS: Hotel opening sequence**
+
+- 🎬 70+ horror-themed animated scenes
+- ✨ Pure CSS glitch + transition effects
+- 🎵 Web Audio API music integration
+- 📚 Documented animation timeline
+- 🎯 Zero frameworks — vanilla everything
+
+[View Project →](https://github.com/OfteaHeat1997/American-horror-story-Intro-outro-)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🎨 Kirby Interactive Dance Show
+**Pure CSS character animation**
+
+- 🎭 CSS keyframes — no images, all code
+- 🎮 Vanilla JS DOM manipulation
+- 🎵 Music-synchronized movement
+- 📱 Responsive scaling
+- ✨ Dynamic dance system
+
+[View Project →](https://github.com/OfteaHeat1997/Kirby)
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
-### 🏆 ᴛʀᴏᴘʜɪᴇs
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=OfteaHeat1997&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10"/>
-</p>
-
----
+<!-- ╔════════════════════════════════════════════════════════════╗ -->
+<!-- ║                      GITHUB STATS                          ║ -->
+<!-- ╚════════════════════════════════════════════════════════════╝ -->
 
 ### 📊 ɢɪᴛʜᴜʙ sᴛᴀᴛs
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=OfteaHeat1997&show_icons=true&bg_color=0f0f18&title_color=E91E8C&icon_color=7C3AED&text_color=ffffff&hide_border=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OfteaHeat1997&layout=compact&bg_color=0f0f18&title_color=E91E8C&text_color=ffffff&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=OfteaHeat1997&show_icons=true&count_private=true&bg_color=0f0f18&title_color=E91E8C&icon_color=7C3AED&text_color=ffffff&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OfteaHeat1997&layout=compact&langs_count=10&bg_color=0f0f18&title_color=E91E8C&text_color=ffffff&hide_border=true" height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=OfteaHeat1997&background=0f0f18&ring=E91E8C&fire=7C3AED&currStreakLabel=E91E8C&hide_border=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=OfteaHeat1997&background=0f0f18&ring=E91E8C&fire=7C3AED&currStreakLabel=E91E8C&hide_border=true&dates=ffffff&sideNums=ffffff&sideLabels=ffffff&stroke=E91E8C"/>
 </p>
 
----
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=OfteaHeat1997&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10"/>
+</p>
 
-### 🐍 ᴄᴏɴᴛʀɪʙᴜᴛɪᴏɴ ɢʀᴀᴘʜ
+<br/>
+
+<!-- ╔════════════════════════════════════════════════════════════╗ -->
+<!-- ║                  CONTRIBUTION GRAPH                        ║ -->
+<!-- ╚════════════════════════════════════════════════════════════╝ -->
+
+### 📈 ᴄᴏɴᴛʀɪʙᴜᴛɪᴏɴ ᴀᴄᴛɪᴠɪᴛʏ
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=OfteaHeat1997&bg_color=0f0f18&color=E91E8C&line=7C3AED&point=ffffff&area=true&hide_border=true"/>
+</p>
+
+### 🐍 ᴄᴏᴅᴇ sɴᴀᴋᴇ
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OfteaHeat1997/OfteaHeat1997/output/github-snake-dark.svg" />
@@ -162,26 +299,54 @@ const paula = {
   <img alt="github-snake" src="https://raw.githubusercontent.com/OfteaHeat1997/OfteaHeat1997/output/github-snake-dark.svg" />
 </picture>
 
----
+<br/>
 
-### 💬 ǫᴜᴏᴛᴇ ᴏғ ᴛʜᴇ ᴅᴀʏ
+<!-- ╔════════════════════════════════════════════════════════════╗ -->
+<!-- ║                  WHAT I'M LOOKING FOR                      ║ -->
+<!-- ╚════════════════════════════════════════════════════════════╝ -->
+
+### 🎯 ɪɴᴛᴇʀɴsʜɪᴘ ɢᴏᴀʟs
+
+> 🚀 **Looking for a Frontend / Full-Stack Internship starting September 1, 2026**
+
+| What I bring | What I'm looking for |
+|:---|:---|
+| ⚛️ Production-ready React / Next.js / TypeScript | 🌱 A team that ships real product to real users |
+| 🎨 Strong design eye (Figma → code pipeline) | 🤝 Mentorship + code-review culture |
+| 🤖 Hands-on AI integration experience | 🧪 Modern tooling (TypeScript, testing, CI/CD) |
+| 🌍 Multilingual, multicultural background | 💜 Inclusive, growth-oriented environment |
+
+<br/>
+
+<!-- ╔════════════════════════════════════════════════════════════╗ -->
+<!-- ║                       QUOTE BLOCK                          ║ -->
+<!-- ╚════════════════════════════════════════════════════════════╝ -->
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
 </p>
 
----
+<br/>
+
+<!-- ╔════════════════════════════════════════════════════════════╗ -->
+<!-- ║                       LET'S CONNECT                        ║ -->
+<!-- ╚════════════════════════════════════════════════════════════╝ -->
 
 ### 🤝 ʟᴇᴛ's ᴄᴏɴɴᴇᴄᴛ
 
 <p align="center">
-📍 Eindhoven, Netherlands<br>
-📧 salazarpaula14@gmail.com<br>
-🌐 <a href="https://mpaula.nl">mpaula.nl</a><br>
-💼 <a href="https://linkedin.com/in/maria-paula-salazar-agudelo-400969359">LinkedIn</a><br>
-📱 +31 6 87835450
+📍 <b>Eindhoven, Netherlands</b> &nbsp;·&nbsp; 📧 <a href="mailto:salazarpaula14@gmail.com">salazarpaula14@gmail.com</a> &nbsp;·&nbsp; 📱 +31 6 87835450<br/>
+🌐 <a href="https://mpaula.nl">mpaula.nl</a> &nbsp;·&nbsp; 💼 <a href="https://linkedin.com/in/maria-paula-salazar-agudelo-400969359">LinkedIn</a> &nbsp;·&nbsp; ✨ <a href="https://unistudio.vercel.app">UniStudio (Live Demo)</a>
 </p>
 
 <p align="center">
-  <b>💖 Open to internship opportunities and collaborations!</b>
+  <b>💖 Open to internship opportunities & creative collaborations · Available from September 1, 2026</b>
+</p>
+
+<!-- ╔════════════════════════════════════════════════════════════╗ -->
+<!-- ║                    ANIMATED FOOTER                         ║ -->
+<!-- ╚════════════════════════════════════════════════════════════╝ -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,30&height=120&section=footer&animation=fadeIn"/>
 </p>
