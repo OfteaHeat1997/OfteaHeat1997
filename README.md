@@ -86,10 +86,10 @@ const paula = {
 
 </td>
 
-<!-- ─── Unistyles v2 ─── -->
+<!-- ─── Unistyles E-Commerce ─── -->
 <td width="50%" valign="top">
 
-### 🛍️ Unistyles v2
+### 🛍️ Unistyles E-Commerce
 **E-Commerce Platform**
 
 <p>
