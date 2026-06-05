@@ -3,7 +3,7 @@
 <!-- ╚════════════════════════════════════════════════════════════╝ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,30&height=240&section=header&text=Maria%20Paula%20Salazar&fontSize=58&fontColor=fff&animation=fadeIn&stroke=E91E8C&strokeWidth=2&fontAlignY=38&desc=Frontend%20Developer%20%C2%B7%20UX/UI%20Designer&descAlignY=58&descSize=18"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,30&height=220&section=header&text=Maria%20Paula%20Salazar&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=40"/>
 </p>
 
 <h3 align="center">
@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://mpaula.nl"><img src="https://img.shields.io/badge/Portfolio-mpaula.nl-E91E8C?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-  <a href="https://unistudio.vercel.app"><img src="https://img.shields.io/badge/Live_Project-UniStudio-7C3AED?style=for-the-badge&logo=next.js&logoColor=white"/></a>
+  <a href="https://github.com/OfteaHeat1997?tab=repositories"><img src="https://img.shields.io/badge/Projects-UniStudio_%26_Unistyles-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://linkedin.com/in/maria-paula-salazar-agudelo-400969359"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:salazarpaula14@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-E91E8C?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
@@ -49,6 +49,77 @@ const paula = {
 <br/>
 
 <!-- ╔════════════════════════════════════════════════════════════╗ -->
+<!-- ║              ⭐  STELLAR PROJECTS  (TOP 2)                  ║ -->
+<!-- ╚════════════════════════════════════════════════════════════╝ -->
+
+## ⭐ ꜱᴛᴇʟʟᴀʀ ᴘʀᴏᴊᴇᴄᴛꜱ
+
+<table align="center" width="100%">
+<tr>
+<!-- ─── UniStudio ─── -->
+<td width="50%" valign="top">
+
+### ✨ UniStudio
+**AI Image Design Studio**
+
+<p>
+  <img src="https://img.shields.io/badge/🚧_IN_PROGRESS-f59e0b?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+</p>
+
+**Full-stack AI-powered image editor** *(currently building)*
+
+- 🤖 AI background removal (IMG.LY)
+- 🎨 Generative editing (Fal.ai + Replicate)
+- 🎙️ Edge TTS (text-to-speech)
+- 🖼️ Fabric.js canvas with layers & filters
+- 🗄️ Prisma + PostgreSQL + Vercel Blob
+- ⚡ Upstash Redis caching
+- 🧪 Jest + Playwright tested
+
+**Stack:** Next.js 16 · React 19 · TS · Tailwind 4 · Prisma · Radix UI · Zustand
+
+💻 [Repo](https://github.com/OfteaHeat1997/Image-Desgn-Studio)<br/>
+🌐 Preview: [unistudio.vercel.app](https://unistudio.vercel.app) *(WIP)*
+
+</td>
+
+<!-- ─── Unistyles v2 ─── -->
+<td width="50%" valign="top">
+
+### 🛍️ Unistyles v2
+**E-Commerce Platform**
+
+<p>
+  <img src="https://img.shields.io/badge/🚧_IN_PROGRESS-f59e0b?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+</p>
+
+**Full-stack e-commerce for Curaçao market** *(currently building)*
+
+- 🛒 Product catalog + cart + checkout
+- 🔐 JWT auth (bcrypt cost 12, rotation)
+- 💳 Secure payments (PCI-aware design)
+- 🌍 GDPR/CCPA compliance + cookie consent
+- 🚀 Nginx reverse proxy + Cloudflare CDN
+- 🗄️ PostgreSQL + Redis sessions/cache
+- 📦 Docker Compose multi-service orchestration
+
+**Stack:** Node.js · Express · PostgreSQL · Redis · Docker · Nginx · Alpine.js
+
+💻 [Repo](https://github.com/OfteaHeat1997/Unistyles-Website)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ╔════════════════════════════════════════════════════════════╗ -->
 <!-- ║                       TECH STACK                           ║ -->
 <!-- ╚════════════════════════════════════════════════════════════╝ -->
 
@@ -58,7 +129,7 @@ const paula = {
 <summary><b>💻 Frontend & Frameworks</b></summary>
 <br/>
 
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -66,7 +137,7 @@ const paula = {
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-2D3748?style=for-the-badge&logo=react&logoColor=white)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpinedotjs&logoColor=black)
 
 </details>
 
@@ -76,9 +147,8 @@ const paula = {
 
 ![Fal.ai](https://img.shields.io/badge/Fal.ai-FF4F00?style=for-the-badge&logoColor=white)
 ![Replicate](https://img.shields.io/badge/Replicate-000000?style=for-the-badge&logo=replicate&logoColor=white)
-![Anthropic Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![IMG.LY](https://img.shields.io/badge/Background_Removal-E91E8C?style=for-the-badge&logoColor=white)
 
 </details>
 
@@ -97,14 +167,15 @@ const paula = {
 <summary><b>⚙️ Backend & Database</b></summary>
 <br/>
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Redis](https://img.shields.io/badge/Upstash_Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
 </details>
 
@@ -130,6 +201,7 @@ const paula = {
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 
 </details>
@@ -137,34 +209,11 @@ const paula = {
 <br/>
 
 <!-- ╔════════════════════════════════════════════════════════════╗ -->
-<!-- ║                  FEATURED PROJECTS                         ║ -->
+<!-- ║                  OTHER PROJECTS (GRID)                     ║ -->
 <!-- ╚════════════════════════════════════════════════════════════╝ -->
 
-### 🚀 ғᴇᴀᴛᴜʀᴇᴅ ᴘʀᴏᴊᴇᴄᴛs
+### 🚀 ᴍᴏʀᴇ ᴘʀᴏᴊᴇᴄᴛꜱ
 
-<!-- ─── UniStudio (HEADLINE PROJECT) ─── -->
-<table align="center" width="100%">
-<tr>
-<td width="100%" valign="top">
-
-#### ✨ UniStudio — AI Image Design Studio &nbsp;<img src="https://img.shields.io/badge/LIVE-22c55e?style=flat-square&logo=vercel&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Flagship_Project-E91E8C?style=flat-square"/>
-
-**Full-stack AI-powered image editing platform — Next.js 16 + React 19 + TypeScript**
-
-- 🤖 **AI features:** background removal (IMG.LY), generative editing (Fal.ai + Replicate), text-to-speech (Edge TTS)
-- 🎨 **Canvas editor** built with Fabric.js — layers, filters, slider controls, real-time preview
-- 🗄️ **Prisma + PostgreSQL** schema with Vercel Blob storage and Upstash Redis caching
-- 🧪 **Tested:** Jest unit tests, Playwright E2E suite, integration tests, CI smoke tests
-- 🎛️ **UI:** Radix UI primitives + Tailwind CSS 4 + Zustand state management
-- 🚀 **Deployed:** [unistudio.vercel.app](https://unistudio.vercel.app)
-
-`Next.js 16` `React 19` `TypeScript` `Prisma` `PostgreSQL` `Fal.ai` `Replicate` `Tailwind` `Playwright`
-
-</td>
-</tr>
-</table>
-
-<!-- ─── Secondary projects (2x2 grid) ─── -->
 <table align="center">
 <tr>
 <td width="50%" valign="top">
@@ -176,7 +225,6 @@ const paula = {
 - 🤖 AI-powered symptom triage
 - 📅 Appointment booking + calendar sync
 - 🎨 Figma prototypes, full UX research
-- 🌍 Designed for developing-country contexts
 
 [View Project →](https://github.com/OfteaHeat1997/Healthwave-doctor-on-demands)
 
@@ -189,7 +237,6 @@ const paula = {
 - 🐦 Flutter (Dart 3.1+) for iOS & Android
 - 🔐 Firebase Auth + Google Sign-In
 - 🗺️ Google Maps + geolocation matching
-- 🎙️ Voice messages + emoji picker
 - ☁️ Cloud Firestore real-time sync
 
 [View Project →](https://github.com/OfteaHeat1997/jussuf)
@@ -205,7 +252,6 @@ const paula = {
 - ⚛️ React frontend with React Router
 - 🔥 Firebase Realtime Database
 - ✏️ Create / Read / Update / Delete flow
-- 🎯 Form validation + protected routes
 - 📱 Fully responsive UI
 
 [View Project →](https://github.com/OfteaHeat1997/CRUD-Book-managements)
@@ -219,7 +265,6 @@ const paula = {
 - 🌐 Fetch API + async/await
 - 🎯 Dynamic question rendering
 - ⏱️ Timer + score tracking
-- 📊 Multiple difficulty levels
 - 🎨 Interactive UI animations
 
 [View Project →](https://github.com/OfteaHeat1997/API-Quiz-Game)
@@ -235,7 +280,6 @@ const paula = {
 - 🎬 70+ horror-themed animated scenes
 - ✨ Pure CSS glitch + transition effects
 - 🎵 Web Audio API music integration
-- 📚 Documented animation timeline
 - 🎯 Zero frameworks — vanilla everything
 
 [View Project →](https://github.com/OfteaHeat1997/American-horror-story-Intro-outro-)
@@ -249,7 +293,6 @@ const paula = {
 - 🎭 CSS keyframes — no images, all code
 - 🎮 Vanilla JS DOM manipulation
 - 🎵 Music-synchronized movement
-- 📱 Responsive scaling
 - ✨ Dynamic dance system
 
 [View Project →](https://github.com/OfteaHeat1997/Kirby)
@@ -267,37 +310,17 @@ const paula = {
 ### 📊 ɢɪᴛʜᴜʙ sᴛᴀᴛs
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=OfteaHeat1997&show_icons=true&count_private=true&bg_color=0f0f18&title_color=E91E8C&icon_color=7C3AED&text_color=ffffff&hide_border=true" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OfteaHeat1997&layout=compact&langs_count=10&bg_color=0f0f18&title_color=E91E8C&text_color=ffffff&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=OfteaHeat1997&show_icons=true&theme=radical&hide_border=true&bg_color=0f0f18&title_color=E91E8C&icon_color=7C3AED&text_color=ffffff" height="180" alt="Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OfteaHeat1997&layout=compact&langs_count=10&theme=radical&hide_border=true&bg_color=0f0f18&title_color=E91E8C&text_color=ffffff" height="180" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=OfteaHeat1997&background=0f0f18&ring=E91E8C&fire=7C3AED&currStreakLabel=E91E8C&hide_border=true&dates=ffffff&sideNums=ffffff&sideLabels=ffffff&stroke=E91E8C"/>
+  <img src="https://streak-stats.demolab.com?user=OfteaHeat1997&theme=radical&hide_border=true&background=0f0f18&ring=E91E8C&fire=7C3AED&currStreakLabel=E91E8C&sideLabels=ffffff&dates=ffffff&sideNums=ffffff&currStreakNum=ffffff" alt="Streak Stats"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=OfteaHeat1997&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=OfteaHeat1997&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="Trophies"/>
 </p>
-
-<br/>
-
-<!-- ╔════════════════════════════════════════════════════════════╗ -->
-<!-- ║                  CONTRIBUTION GRAPH                        ║ -->
-<!-- ╚════════════════════════════════════════════════════════════╝ -->
-
-### 📈 ᴄᴏɴᴛʀɪʙᴜᴛɪᴏɴ ᴀᴄᴛɪᴠɪᴛʏ
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=OfteaHeat1997&bg_color=0f0f18&color=E91E8C&line=7C3AED&point=ffffff&area=true&hide_border=true"/>
-</p>
-
-### 🐍 ᴄᴏᴅᴇ sɴᴀᴋᴇ
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OfteaHeat1997/OfteaHeat1997/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OfteaHeat1997/OfteaHeat1997/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/OfteaHeat1997/OfteaHeat1997/output/github-snake-dark.svg" />
-</picture>
 
 <br/>
 
@@ -319,16 +342,6 @@ const paula = {
 <br/>
 
 <!-- ╔════════════════════════════════════════════════════════════╗ -->
-<!-- ║                       QUOTE BLOCK                          ║ -->
-<!-- ╚════════════════════════════════════════════════════════════╝ -->
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
-</p>
-
-<br/>
-
-<!-- ╔════════════════════════════════════════════════════════════╗ -->
 <!-- ║                       LET'S CONNECT                        ║ -->
 <!-- ╚════════════════════════════════════════════════════════════╝ -->
 
@@ -336,11 +349,12 @@ const paula = {
 
 <p align="center">
 📍 <b>Eindhoven, Netherlands</b> &nbsp;·&nbsp; 📧 <a href="mailto:salazarpaula14@gmail.com">salazarpaula14@gmail.com</a> &nbsp;·&nbsp; 📱 +31 6 87835450<br/>
-🌐 <a href="https://mpaula.nl">mpaula.nl</a> &nbsp;·&nbsp; 💼 <a href="https://linkedin.com/in/maria-paula-salazar-agudelo-400969359">LinkedIn</a> &nbsp;·&nbsp; ✨ <a href="https://unistudio.vercel.app">UniStudio (Live Demo)</a>
+🌐 <a href="https://mpaula.nl">mpaula.nl</a> &nbsp;·&nbsp; 💼 <a href="https://linkedin.com/in/maria-paula-salazar-agudelo-400969359">LinkedIn</a><br/>
+✨ <a href="https://github.com/OfteaHeat1997/Image-Desgn-Studio">UniStudio Repo</a> &nbsp;·&nbsp; 🛍️ <a href="https://github.com/OfteaHeat1997/Unistyles-Website">Unistyles Repo</a>
 </p>
 
 <p align="center">
-  <b>💖 Open to internship opportunities & creative collaborations · Available from September 1, 2026</b>
+  <b>💖 Open to internship opportunities &amp; creative collaborations · Available from September 1, 2026</b>
 </p>
 
 <!-- ╔════════════════════════════════════════════════════════════╗ -->
