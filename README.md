@@ -117,7 +117,7 @@ const paula = {
 **Deep Learning Project**
 
 <p>
-  <img src="https://img.shields.io/badge/85%25_Accuracy-22c55e?style=flat-square"/>
+  <img src="https://img.shields.io/badge/🎓_AI_Minor-7C3AED?style=flat-square"/>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
 </p>
 
@@ -128,7 +128,7 @@ const paula = {
 - 🍌 Apples · bananas · oranges
 - 🌿 Fresh · rotten · unripe stages
 - 🧠 MobileNetV2 transfer learning
-- 📊 ~20K images, ~85% val accuracy
+- 📊 ~20K image dataset
 - 🔄 Data augmentation pipeline
 - 📱 Mobile-first design
 - 🚀 TFLite + Flutter (planned)
