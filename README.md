@@ -310,16 +310,13 @@ const paula = {
 ### 📊 ɢɪᴛʜᴜʙ sᴛᴀᴛs
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=OfteaHeat1997&show_icons=true&theme=radical&hide_border=true&bg_color=0f0f18&title_color=E91E8C&icon_color=7C3AED&text_color=ffffff" height="180" alt="Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OfteaHeat1997&layout=compact&langs_count=10&theme=radical&hide_border=true&bg_color=0f0f18&title_color=E91E8C&text_color=ffffff" height="180" alt="Top Languages"/>
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=OfteaHeat1997&theme=radical&hide_border=true&background=0f0f18&ring=E91E8C&fire=7C3AED&currStreakLabel=E91E8C&sideLabels=ffffff&dates=ffffff&sideNums=ffffff&currStreakNum=ffffff" alt="Streak Stats"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=OfteaHeat1997&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="Trophies"/>
+  <a href="https://github.com/OfteaHeat1997?tab=repositories"><img src="https://img.shields.io/badge/Public_Repos-15+-E91E8C?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/Languages-TS%20%C2%B7%20JS%20%C2%B7%20Dart%20%C2%B7%20Java%20%C2%B7%20Python-7C3AED?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Frameworks-Next.js%20%C2%B7%20React%20%C2%B7%20Flutter-22c55e?style=for-the-badge"/>
 </p>
 
 <br/>
@@ -335,6 +332,8 @@ const paula = {
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OfteaHeat1997/OfteaHeat1997/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/OfteaHeat1997/OfteaHeat1997/output/github-snake-dark.svg" />
 </picture>
+
+<sub align="center"><i>Snake animation auto-updates daily from contribution graph</i></sub>
 
 <br/>
 
