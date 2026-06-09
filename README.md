@@ -57,61 +57,85 @@ const paula = {
 <table align="center" width="100%">
 <tr>
 <!-- ─── UniStudio ─── -->
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### ✨ UniStudio
 **AI Image Design Studio**
 
 <p>
-  <img src="https://img.shields.io/badge/🚧_IN_PROGRESS-f59e0b?style=flat-square"/>
+  <img src="https://img.shields.io/badge/🚧_WIP-f59e0b?style=flat-square"/>
   <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
 </p>
 
-**Full-stack AI-powered image editor** *(currently building)*
+**AI-powered image editor**
 
 - 🤖 AI background removal (IMG.LY)
-- 🎨 Generative editing (Fal.ai + Replicate)
-- 🎙️ Edge TTS (text-to-speech)
-- 🖼️ Fabric.js canvas with layers & filters
-- 🗄️ Prisma + PostgreSQL + Vercel Blob
-- ⚡ Upstash Redis caching
-- 🧪 Jest + Playwright tested
+- 🎨 Generative edits (Fal.ai · Replicate)
+- 🎙️ Edge text-to-speech
+- 🖼️ Fabric.js canvas + layers
+- 🗄️ Prisma · PostgreSQL · Blob
+- ⚡ Upstash Redis cache
+- 🧪 Jest + Playwright
 
-**Stack:** Next.js 16 · React 19 · TS · Tailwind 4 · Prisma · Radix UI · Zustand
+**Stack:** Next.js 16 · React 19 · TS · Tailwind · Prisma · Radix · Zustand
 
-💻 [Repo](https://github.com/OfteaHeat1997/Image-Desgn-Studio)<br/>
-🌐 Preview: [unistudio.vercel.app](https://unistudio.vercel.app) *(WIP)*
+💻 [Repo](https://github.com/OfteaHeat1997/Image-Desgn-Studio)
 
 </td>
 
 <!-- ─── Unistyles E-Commerce ─── -->
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 🛍️ Unistyles E-Commerce
 **E-Commerce Platform**
 
 <p>
-  <img src="https://img.shields.io/badge/🚧_IN_PROGRESS-f59e0b?style=flat-square"/>
+  <img src="https://img.shields.io/badge/🚧_WIP-f59e0b?style=flat-square"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 </p>
 
-**Full-stack e-commerce for Curaçao market** *(currently building)*
+**Full-stack shop for Curaçao**
 
-- 🛒 Product catalog + cart + checkout
-- 🔐 JWT auth (bcrypt cost 12, rotation)
-- 💳 Secure payments (PCI-aware design)
-- 🌍 GDPR/CCPA compliance + cookie consent
-- 🚀 Nginx reverse proxy + Cloudflare CDN
-- 🗄️ PostgreSQL + Redis sessions/cache
-- 📦 Docker Compose multi-service orchestration
+- 🛒 Catalog · cart · checkout
+- 🔐 JWT auth (bcrypt + rotation)
+- 💳 PCI-aware payments
+- 🌍 GDPR/CCPA + cookie consent
+- 🚀 Nginx + Cloudflare CDN
+- 🗄️ PostgreSQL + Redis
+- 📦 Docker Compose orchestration
 
-**Stack:** Node.js · Express · PostgreSQL · Redis · Docker · Nginx · Alpine.js
+**Stack:** Node · Express · PostgreSQL · Redis · Docker · Nginx · Alpine.js
 
 💻 [Repo](https://github.com/OfteaHeat1997/Unistyles-Website)
+
+</td>
+
+<!-- ─── Fruit Classifier ─── -->
+<td width="33%" valign="top">
+
+### 🍎 Fruit Ripeness Classifier
+**Deep Learning Project**
+
+<p>
+  <img src="https://img.shields.io/badge/85%25_Accuracy-22c55e?style=flat-square"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+</p>
+
+> 🎓 Built during my **AI for Society Minor** at Fontys
+
+**9-class ripeness CNN**
+
+- 🍌 Apples · bananas · oranges
+- 🌿 Fresh · rotten · unripe stages
+- 🧠 MobileNetV2 transfer learning
+- 📊 ~20K images, ~85% val accuracy
+- 🔄 Data augmentation pipeline
+- 📱 Mobile-first design
+- 🚀 TFLite + Flutter (planned)
+
+**Stack:** Python · TensorFlow · Keras · Jupyter · NumPy · MobileNetV2
+
+💻 [Repo](https://github.com/OfteaHeat1997/fruit-classifier-AI-project)
 
 </td>
 </tr>
@@ -145,6 +169,9 @@ const paula = {
 <summary><b>🤖 AI / ML Integration</b></summary>
 <br/>
 
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Fal.ai](https://img.shields.io/badge/Fal.ai-FF4F00?style=for-the-badge&logoColor=white)
 ![Replicate](https://img.shields.io/badge/Replicate-000000?style=for-the-badge&logo=replicate&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
@@ -311,7 +338,7 @@ const paula = {
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,prisma,postgres,nodejs,flutter,firebase,docker,figma,vercel&perline=12" alt="Skills"/>
+    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,prisma,postgres,nodejs,python,tensorflow,flutter,firebase,docker,figma,vercel&perline=14" alt="Skills"/>
   </a>
 </p>
 
@@ -321,22 +348,31 @@ const paula = {
 
 <table align="center">
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="33%">
 
 **✨ UniStudio** &nbsp;<img src="https://img.shields.io/badge/WIP-f59e0b?style=flat-square"/>
 
 AI image editor — Next.js 16, Prisma, Fal.ai, Playwright
 
-`Sprint focus:` canvas layers + background-removal flow
+`Sprint focus:` canvas layers + bg-removal flow
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="33%">
 
 **🛍️ Unistyles E-Commerce** &nbsp;<img src="https://img.shields.io/badge/WIP-f59e0b?style=flat-square"/>
 
 Full-stack shop — Node, PostgreSQL, Redis, Docker, Nginx
 
-`Sprint focus:` JWT auth + cart persistence + checkout
+`Sprint focus:` JWT auth + cart + checkout
+
+</td>
+<td valign="top" width="33%">
+
+**🍎 Fruit Classifier** &nbsp;<img src="https://img.shields.io/badge/AI_Minor-7C3AED?style=flat-square"/>
+
+Deep learning ripeness CNN — TensorFlow, MobileNetV2, ~20K images · 🎓 **AI for Society Minor**
+
+`Next:` TFLite + Flutter mobile demo
 
 </td>
 </tr>
