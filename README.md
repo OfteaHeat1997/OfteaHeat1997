@@ -325,6 +325,20 @@ const paula = {
 <br/>
 
 <!-- ╔════════════════════════════════════════════════════════════╗ -->
+<!-- ║                       CODE SNAKE                           ║ -->
+<!-- ╚════════════════════════════════════════════════════════════╝ -->
+
+### 🐍 ᴄᴏᴅᴇ sɴᴀᴋᴇ
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OfteaHeat1997/OfteaHeat1997/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OfteaHeat1997/OfteaHeat1997/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/OfteaHeat1997/OfteaHeat1997/output/github-snake-dark.svg" />
+</picture>
+
+<br/>
+
+<!-- ╔════════════════════════════════════════════════════════════╗ -->
 <!-- ║                  WHAT I'M LOOKING FOR                      ║ -->
 <!-- ╚════════════════════════════════════════════════════════════╝ -->
 
