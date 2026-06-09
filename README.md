@@ -307,16 +307,47 @@ const paula = {
 <!-- ║                      GITHUB STATS                          ║ -->
 <!-- ╚════════════════════════════════════════════════════════════╝ -->
 
-### 📊 ɢɪᴛʜᴜʙ sᴛᴀᴛs
+### 🛠️ ᴄᴜʀʀᴇɴᴛ sᴛᴀᴄᴋ
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,prisma,postgres,nodejs,flutter,firebase,docker,figma,vercel&perline=12" alt="Skills"/>
+  </a>
+</p>
+
+<br/>
+
+### 🔥 ɴᴏᴡ ʙᴜɪʟᴅɪɴɢ
+
+<table align="center">
+<tr>
+<td valign="top" width="50%">
+
+**✨ UniStudio** &nbsp;<img src="https://img.shields.io/badge/WIP-f59e0b?style=flat-square"/>
+
+AI image editor — Next.js 16, Prisma, Fal.ai, Playwright
+
+`Sprint focus:` canvas layers + background-removal flow
+
+</td>
+<td valign="top" width="50%">
+
+**🛍️ Unistyles E-Commerce** &nbsp;<img src="https://img.shields.io/badge/WIP-f59e0b?style=flat-square"/>
+
+Full-stack shop — Node, PostgreSQL, Redis, Docker, Nginx
+
+`Sprint focus:` JWT auth + cart persistence + checkout
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 📊 ɢɪᴛʜᴜʙ ᴀᴄᴛɪᴠɪᴛʏ
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=OfteaHeat1997&theme=radical&hide_border=true&background=0f0f18&ring=E91E8C&fire=7C3AED&currStreakLabel=E91E8C&sideLabels=ffffff&dates=ffffff&sideNums=ffffff&currStreakNum=ffffff" alt="Streak Stats"/>
-</p>
-
-<p align="center">
-  <a href="https://github.com/OfteaHeat1997?tab=repositories"><img src="https://img.shields.io/badge/Public_Repos-15+-E91E8C?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/Languages-TS%20%C2%B7%20JS%20%C2%B7%20Dart%20%C2%B7%20Java%20%C2%B7%20Python-7C3AED?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Frameworks-Next.js%20%C2%B7%20React%20%C2%B7%20Flutter-22c55e?style=for-the-badge"/>
 </p>
 
 <br/>
