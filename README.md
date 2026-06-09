@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://mpaula.nl"><img src="https://img.shields.io/badge/Portfolio-mpaula.nl-E91E8C?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-  <a href="https://github.com/OfteaHeat1997?tab=repositories"><img src="https://img.shields.io/badge/Projects-UniStudio_%26_Unistyles-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://unistudio.vercel.app"><img src="https://img.shields.io/badge/Live-UniStudio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"/></a>
   <a href="https://linkedin.com/in/maria-paula-salazar-agudelo-400969359"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:salazarpaula14@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-E91E8C?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
@@ -79,6 +79,7 @@ const paula = {
 
 **Stack:** Next.js 16 · React 19 · TS · Tailwind · Prisma · Radix · Zustand
 
+🌐 [Live (WIP)](https://unistudio.vercel.app)<br/>
 💻 [Repo](https://github.com/OfteaHeat1997/Image-Desgn-Studio)
 
 </td>
@@ -430,7 +431,7 @@ Deep learning ripeness CNN — TensorFlow, MobileNetV2, ~20K images · 🎓 **AI
 <p align="center">
 📍 <b>Eindhoven, Netherlands</b> &nbsp;·&nbsp; 📧 <a href="mailto:salazarpaula14@gmail.com">salazarpaula14@gmail.com</a> &nbsp;·&nbsp; 📱 +31 6 87835450<br/>
 🌐 <a href="https://mpaula.nl">mpaula.nl</a> &nbsp;·&nbsp; 💼 <a href="https://linkedin.com/in/maria-paula-salazar-agudelo-400969359">LinkedIn</a><br/>
-✨ <a href="https://github.com/OfteaHeat1997/Image-Desgn-Studio">UniStudio Repo</a> &nbsp;·&nbsp; 🛍️ <a href="https://github.com/OfteaHeat1997/Unistyles-Website">Unistyles Repo</a>
+✨ <a href="https://unistudio.vercel.app">UniStudio Live</a> &nbsp;·&nbsp; 💻 <a href="https://github.com/OfteaHeat1997/Image-Desgn-Studio">UniStudio Repo</a> &nbsp;·&nbsp; 🛍️ <a href="https://github.com/OfteaHeat1997/Unistyles-Website">Unistyles Repo</a>
 </p>
 
 <p align="center">
